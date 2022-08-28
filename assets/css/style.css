@@ -1,0 +1,314 @@
+a {
+	cursor: pointer
+}
+
+.action-edit,
+.action-delete,
+.action-custom {
+	font-size: 16px;
+	cursor: pointer;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.dataTables_length,
+.dataTables_filter {
+	border-bottom: none !important;
+}
+
+.link-to {
+	cursor: pointer !important;
+}
+
+.formError .formErrorContent,
+.formError .formErrorArrow div {
+	background: #883535 !important;
+}
+
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting {
+	background-image: none !important;
+}
+
+.form-error {
+	color: #883535 !important;
+	font-style: italic;
+	font-weight: 500;
+}
+
+.page-content-wrap {
+	background-color: #f2f2f2 !important;
+}
+
+#no {
+	text-align: center;
+}
+
+@media (max-width: 1000px) {
+	.gallery-item {
+		width: 25% !important;
+	}
+}
+
+.link-to,
+.link-to-with-prev,
+.go-back {
+	cursor: pointer;
+}
+
+.pointer {
+	cursor: pointer !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #fa6d03;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(219, 171, 116);
+}
+
+.profile .profile-image img {
+	border: none !important;
+}
+
+.page-sidebar,
+.page-sidebar-fixed,
+.scroll,
+.mCustomScrollbar,
+._mCS_1,
+.mCS-autoHide,
+.mCS_no_scrollbar {
+	background: #fff;
+}
+
+.table>thead>tr>th {
+	background: #1caf9a !important;
+	color: #fff;
+	font-size: 12px;
+}
+
+.x-navigation > li:last-child > a {
+    border-radius: 0px 0px 0px 0px !important;
+}
+
+.x-navigation li > ul li.active > a {
+    background-color: #555;
+}
+
+
+.text-black {
+	color: black !important;
+}
+
+.text-red {
+	color: red !important;
+}
+
+.text-green {
+	color: green !important;
+}
+
+.mt-1 {
+	margin-top: 10px;
+}
+
+.tbody {
+	display: block;
+	height: 200px;
+	overflow: auto;
+	font-size: 11px;
+	color: #000;
+	background-color: white;
+}
+
+.thead,
+.tbody tr {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.tdth {
+	background-color: #1caf9a !important;
+	color: white;
+	font-weight: bold;
+}
+
+.trth {
+	background-color: orange !important;
+	color: white;
+	font-weight: bold;
+}
+
+.grey {
+	color: black;
+	background: #ccc;
+}
+
+.orange {
+	color: black;
+	background: orange;
+}
+
+.text-darkgreen {
+	color: darkgreen;
+	font-weight: bold;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: darkgreen;
+}
+
+.text-skyblue {
+	color: skyblue;
+	font-weight: bold;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: skyblue;
+}
+
+.text-orangered {
+	color: orangered;
+	font-weight: bold;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: orangered;
+}
+
+.text-red {
+	color: red;
+	font-weight: bold;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: red;
+}
+
+.text-purple {
+	color: rgb(168, 84, 168);
+	font-weight: bold;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: rgb(168, 84, 168);
+}
+
+.bg-orangered {
+	background: orangered;
+	color: black;
+}
+
+.bg-skyblue {
+	background: skyblue;
+	color: black;
+}
+
+.bg-pink {
+	background: pink;
+	color: black;
+}
+
+.bg-purple {
+	background: rgb(168, 84, 168);
+	color: black;
+}
+
+.bg-deep-purple {
+	background: #9d00ff;
+	color: white;
+}
+
+.bg-true-purple {
+	background: purple;
+	color: white;
+}
+
+.bg-cyan {
+	background: #00ffff;
+	color: black;
+}
+
+.bg-light-purple {
+	background: #ff00a5;
+	color: black;
+}
+
+.text-cyan {
+	color: #00ffff;
+	font-weight: bold;
+}
+
+.text-light-purple {
+	color: #ff00a5;
+	font-weight: bold;
+}
+
+.text-deep-purple {
+	color: #9d00ff;
+	font-weight: bold;
+}
+
+.text-true-purple {
+	color: purple;
+	font-weight: bold;
+}
+
+.bg-custom {
+	background: #1caf9a;
+	color: black;
+}
+
+.text-custom {
+	color: #1caf9a;
+	font-weight: bold;
+}
+
+.text-orange {
+	color: orange;
+	
+}
+
+.s-grey {
+	color: #ccc;
+}
+
+.s-orange {
+	color: orange;
+}
+
+.v {
+	background: orange;
+	color: black;
+}
+
+.x {
+	background: darkgreen;
+	color: white;
+}
+
+.ex {
+	background: skyblue;
+	color: black;
+}
+
+.s-v {
+	color: orange;
+}
+
+.s-x {
+	color: darkgreen;
+}
+
+.s-ex {
+	color: skyblue;
+}
+
+.bold {
+	font-weight: bold;
+}
